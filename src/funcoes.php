@@ -135,7 +135,7 @@ class Funcoes
 
      * */
     
-	public function SequenciaCrescente(array $arr): bool {
+	public function SequenciaCrescente(array $arr): boolean {
         $resposta = TRUE;
         $len = count($arr);
         if($len > 2){
