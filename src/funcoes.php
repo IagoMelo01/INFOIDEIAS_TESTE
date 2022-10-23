@@ -143,7 +143,7 @@ class Funcoes
              for($i = 1; $i < $len; $i++){
                 $anterior = $arr[$i-1];
                 $atual = $arr[$i];
-                if($atual < $anterior)
+                if($atual <= $anterior)
                     $diferente++;
             }
             if($diferente > 1)
